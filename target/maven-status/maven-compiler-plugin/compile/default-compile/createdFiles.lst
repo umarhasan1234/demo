@@ -1,9 +1,13 @@
 com\example\demo\service\SignUpInterface.class
 com\example\demo\DemoApplication.class
+com\example\demo\entity\RoleNRT.class
 com\example\demo\security\CustomUserService.class
 com\example\demo\serviceImpl\SignUpInterfaceImpl.class
-com\example\demo\entity\Login.class
 com\example\demo\security\CustomUserDetails.class
+com\example\demo\entity\CreateAccount.class
+com\example\demo\repository\RolesRepository.class
+com\example\demo\repository\UserRepository.class
 com\example\demo\security\SecurityConfig.class
 com\example\demo\controller\SignUpController.class
 com\example\demo\repository\SignUpRepository.class
+com\example\demo\entity\UserNRT.class

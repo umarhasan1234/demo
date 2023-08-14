@@ -1,9 +1,13 @@
+C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\entity\UserNRT.java
 C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\security\CustomUserService.java
+C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\repository\UserRepository.java
 C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\serviceImpl\SignUpInterfaceImpl.java
-C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\controller\SignUpController.java
 C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\repository\SignUpRepository.java
-C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\entity\Login.java
 C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\security\CustomUserDetails.java
 C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\DemoApplication.java
 C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\service\SignUpInterface.java
+C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\repository\RolesRepository.java
+C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\controller\SignUpController.java
+C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\entity\CreateAccount.java
+C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\entity\RoleNRT.java
 C:\Users\lenovo\Desktop\E-Commerce\demo\src\main\java\com\example\demo\security\SecurityConfig.java

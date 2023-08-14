@@ -1,16 +1,15 @@
 package com.example.demo.security;
 
 import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-import com.example.demo.entity.Login;
+import com.example.demo.entity.CreateAccount;
 import com.example.demo.repository.SignUpRepository;
 
 
-@Component
+@Service
 public class CustomUserService implements UserDetailsService {
 
 	@Autowired
@@ -19,7 +18,7 @@ public class CustomUserService implements UserDetailsService {
 	@Override
 	public CustomUserDetails loadUserByUsername(String username) {
 
-		Optional<Login> userOptional = userRepository.findByUsername(username);
+		Optional<CreateAccount> userOptional = userRepository.findByUsername(username);
 
 		return new CustomUserDetails(userOptional.get());
 	}

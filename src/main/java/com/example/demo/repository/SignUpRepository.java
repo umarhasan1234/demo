@@ -5,11 +5,11 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.demo.entity.Login;
+import com.example.demo.entity.CreateAccount;
 
-@Repository
-public interface SignUpRepository extends JpaRepository<Login, Long> {
 
-	public Optional<Login> findByUsername(String username);
+public interface SignUpRepository extends JpaRepository<CreateAccount, Long> {
+
+	public Optional<CreateAccount> findByUsername(String username);
 
 }

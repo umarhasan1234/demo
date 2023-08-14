@@ -8,7 +8,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.entity.Login;
+import com.example.demo.entity.CreateAccount;
 
 
 import lombok.NoArgsConstructor;
@@ -19,9 +19,9 @@ public class CustomUserDetails implements UserDetails {
 
 	private static final long serialVersionUID = 8015253558311061965L;
 
-	private Login user;
+	private CreateAccount user;
 
-	public CustomUserDetails(Login user) {
+	public CustomUserDetails(CreateAccount user) {
 		this.user = user;
 
 	}

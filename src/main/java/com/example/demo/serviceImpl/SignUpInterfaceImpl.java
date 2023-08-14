@@ -3,7 +3,7 @@ package com.example.demo.serviceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.entity.Login;
+import com.example.demo.entity.CreateAccount;
 import com.example.demo.repository.SignUpRepository;
 import com.example.demo.service.SignUpInterface;
 
@@ -15,11 +15,11 @@ public class SignUpInterfaceImpl implements SignUpInterface{
 	private SignUpRepository signUpRepository;
 
 	@Override
-	public void SignUpAccount(Login lp) {
+	public void SignUpAccount(CreateAccount lp) {
 		signUpRepository.save(lp);
 	}
 
-	public void SignInAccount(Login lp) {
+	public void SignInAccount(CreateAccount lp) {
 		
 	}
 	
